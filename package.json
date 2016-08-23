@@ -1,0 +1,16 @@
+{
+  "name": "typo3-vhs-snippets",
+  "version": "0.1.0",
+  "description": "A collection for snippets for the VHS: Fluid ViewHelpers extension for typo3",
+  "keywords": [
+    "typo3",
+    "vhs",
+    "snippets",
+    "viewhelper"
+  ],
+  "repository": "https://github.com/febLey/atom-typo3-vhs-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
