@@ -1,19 +1,19 @@
 '.text.html':
-  'namespace':
-    'prefix': 'namespace'
+  '{namespace}':
+    'prefix': 'vnamespace'
     'body': '{namespace v=FluidTYPO3\Vhs\ViewHelpers}'
   'v:content.render':
-    'prefix': 'v:content.render'
+    'prefix': 'vcontent_render'
     'body': '<v:content.render contentUids="{uid: \'$1\'}" />'
   'v:if':
-    'prefix': 'v:if'
+    'prefix': 'vif'
     'body': '<v:if stack="{0: $1}">\n\t$2\n</v:if>'
   'v:link.typolink':
-    'prefix': 'v:link.typolink'
+    'prefix': 'vlink_typolink'
     'body': '<v:link.typolink configuration="{parameter: $1, ATagParams: \'class=\"$2\"\'}">\n\t$3\n</v:link.typolink>'
   'v:variable.set':
-    'prefix': 'v:variable.set'
+    'prefix': 'vvariable_set'
     'body': '<v:variable.set name="$1" value="$2" />'
   'v:variable.get':
-    'prefix': 'v:variable.get'
+    'prefix': 'vvariable_get'
     'body': '<v:variable.get name="$1" />'
