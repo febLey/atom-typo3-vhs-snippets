@@ -1,7 +1,7 @@
 '.text.html':
   '{namespace}':
     'prefix': 'vnamespace'
-    'body': '{namespace v=FluidTYPO3\Vhs\ViewHelpers}'
+    'body': '{namespace v=FluidTYPO3\\\\Vhs\\\\ViewHelpers}'
   'v:content.render':
     'prefix': 'vcontent_render'
     'body': '<v:content.render contentUids="{uid: \'$1\'}" />'
