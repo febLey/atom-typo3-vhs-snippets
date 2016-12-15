@@ -1,6 +1,9 @@
 '.text.html':
-  '{namespace}':
+  'xmlns:v':
     'prefix': 'vnamespace'
+    'body': 'xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"'
+  '{namespace}':
+    'prefix': 'vnamespace_legacy'
     'body': '{namespace v=FluidTYPO3\\\\Vhs\\\\ViewHelpers}'
   'v:content.render':
     'prefix': 'vcontent_render'
